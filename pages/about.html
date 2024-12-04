@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Built2Ride</title>
+    <link rel="icon" type="image/x-icon" href="../favicon/fav32.png">
+    <link rel="stylesheet"  type="text/css" href="../style.css">
+</head>
+<body>
+    <div>
+        <a href="../index.html"><img src="../logo/logo.png" alt="logo" id="logo"></a>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/about.html" class="active">About Us</a></li>
+            <li><a href="../pages/shop.html">Shop</a></li>
+            <li><a href="../pages/gallery.html">Gallery</a></li>
+            <li><a href="../pages/news.html">News</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="section">
+        <h2>About Us</h2>
+        <img src="../images/help.jpg" alt="help" id="imgAboutUs">
+        <p>At 'Built2Ride', we're passionate about cycling and providing cyclists with the gear they need to ride to their fullest potential. Whether you're a seasoned cyclist or just starting out, we're here to support you on your journey.</p>
+        <p>Our mission is simple: to offer a wide range of high-quality bicycle parts, accessories, and gear at competitive prices. From tires to pedals, helmets to handlebars, we've got everything you need to customize your ride and enhance your cycling experience.</p>
+        <p>With our user-friendly website, browsing and shopping for bicycle gear is easy and convenient. Our intuitive navigation makes it simple to find exactly what you're looking for, and our detailed product descriptions and images ensure you know exactly what you're getting. Plus, with secure checkout and fast shipping, you can shop with confidence and get back on the road in no time.</p>
+        <p>But 'Built2Ride' is more than just a place to buy gear. We're a community of cyclists who share a love for the sport and a commitment to supporting one another. Whether you have questions about a product, need advice on maintenance, or just want to share your latest cycling adventure, our team is here to help.</p>
+        <p>Thank you for choosing 'Built2Ride'. We're honored to be a part of your cycling journey and look forward to helping you reach new heights on two wheels.</p>
+
+        <div>
+            <h3>Who are we?</h3>
+            <p>Our team is small but our heart is big and passion for cycling even bigger!</p>
+            <p>This is us:</p>
+            <div class="image-container">
+                <div class="image-box">
+                    <img src="../images/vladimir.jpg" alt="team-vladimir">
+                    <p>Vladimir: Passionate cyclist with miles and miles in his cycling shoes, lot's of experience in road and MTB rides.</p>
+                </div>
+                <div class="image-box">
+                    <img src="../images/andrea.jpg" alt="team-andrea">
+                    <p>Andrea: True outdoor person, once a runner that felt in love with two wheels and now you can see her on the track, on the road and in the forest, too.</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h3><img src="../icons/register.png" alt="register-icon" class="smallIcon"> You want to create an account, become the registered user and get some discounts?</h3>
+            <p>Fill in the next form and we will send you email with registration link:</p>
+
+            <form id="aboutUsForm">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Enter First Name" required>
+            
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Enter Last Name" required>
+            
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" placeholder="Enter Address" cols="30" rows="10" maxlength="300" required></textarea>
+            
+                <label for="regEmail">Email:</label>
+                <input type="email" id="regEmail" name="regEmail" placeholder="Enter Email" required>
+            
+                <label for="regAge">Age:</label>
+                <input type="number" id="regAge" name="regAge" placeholder="Select Age" required>
+
+                <div class="gender-section">
+                    <label>Gender:</label>
+                    <div class="gender-options">
+                        <div>
+                            <label for="male">Male</label>
+                            <input type="radio" id="male" name="gender" value="male" required>
+                        </div>
+                        <div>
+                            <label for="female">Female</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                        </div>
+                        <div>
+                            <label for="other">Other</label>
+                            <input type="radio" id="other" name="gender" value="other">
+                        </div>
+                    </div>
+                </div>
+                <div class="agreement-section">
+                    <div class="agreement-item">
+                        <input type="checkbox" id="agreeTerms" name="terms" value="agree" required>
+                        <label>I agree to <a href="../Built2Ride/pages/terms.html">Terms and Conditions </a>and I have read <a href="../Built2Ride/pages/privacy.html">Privacy Policy</a></label>
+                    </div>
+                    <div class="agreement-item">
+                        <input type="checkbox" id="receiveNewsletter" name="newsletter" value="yes" required>
+                        <label>I want to receive the newsletter</label>
+                    </div>
+                </div>
+                <input type="submit" value="Register" class="button1">
+            </form>
+        </div>
+
+        <div>
+            <h3><img src="../icons/message.png" alt="contact-icon" class="smallIcon"> Contact Us</h3>
+            <p>If you have any questions or need assistance, feel free to <a href="../pages/contact.html">contact us</a>.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Built2Ride. All rights reserved.</p>
+        <h4>Follow us on:</h4>
+        <ul>
+            <li><a href="https://www.facebook.com/"><img src="../icons/facebook.png" alt="facebook-icon"></a></li>
+            <li><a href="https://www.instagram.com/"><img src="../icons/instagram.png" alt="instagram-icon"></a></li>
+            <li><a href="https://www.twitter.com/"><img src="../icons/twitter.png" alt="twitter-icon"></a></li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
